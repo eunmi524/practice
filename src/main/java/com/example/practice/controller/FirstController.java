@@ -12,4 +12,10 @@ public class FirstController {
     public String hello() {
         return "hello";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "테스트입니다.";
+    }
+
 }
